@@ -1,37 +1,27 @@
-.list-none{
-    list-style: none;
-}
-.img{
-    float: left;
-     /* padding-right: 10px;  */
-    margin-right: 10px;
-    
-}
-.img-center{
-    margin-left: 50px;
-}
-.text-area{
-    resize: none;
-}
-.text-area:hover{
-    cursor: default;
-}
-.title{
-    color: white;
-    background-color: rgb(13, 161, 230);
-}
-.link{
-    transition: all .5s ease-in-out;
-    text-align: right;
-    padding-right: 20px;
-}
-.text-none{
+/* a{
     text-decoration: none;
-    color: black;
+}
+a:hover{
+    color: blueviolet;
+    transition: all 0.5s ease-in-out;
+    padding-left: 5px;
+} */
+
+a {
+    text-decoration: none;
+    padding-left: 0;
+    transition: padding-left 0.5s ease-in-out, color 0.5s ease-in-out;
 }
 
-.link:hover{
-    transform: scale(1.03); 
-    box-shadow: 2px;
-    color: rgb(88, 85, 85);
+a:hover {
+    color: blueviolet;
+    padding-left: 5px;
+    margin-left: -5px; /* Negative margin to counteract the padding */
+}  
+ul{
+    list-style: none;
+}
+
+.black-text{
+    color: black;
 }
