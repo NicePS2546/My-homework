@@ -1,0 +1,27 @@
+/* a{
+    text-decoration: none;
+}
+a:hover{
+    color: blueviolet;
+    transition: all 0.5s ease-in-out;
+    padding-left: 5px;
+} */
+
+a {
+    text-decoration: none;
+    padding-left: 0;
+    transition: padding-left 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+a:hover {
+    color: blueviolet;
+    padding-left: 5px;
+    margin-left: -5px; /* Negative margin to counteract the padding */
+}  
+ul{
+    list-style: none;
+}
+
+.black-text{
+    color: black;
+}
