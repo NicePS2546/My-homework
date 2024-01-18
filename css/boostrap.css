@@ -1,42 +1,25 @@
-<<<<<<< HEAD
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
-=======
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap");
->>>>>>> backup
 body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
-<<<<<<< HEAD
-=======
 
 
->>>>>>> backup
 .bg-section {
   background-color: #303030;
   color: white;
   padding-bottom: 194px;
 }
-<<<<<<< HEAD
-=======
 
 /*Start Header*/
 
 
 
->>>>>>> backup
 .header-hero-section {
   display: flex;
   flex-direction: column;
 }
-<<<<<<< HEAD
-.logo-title{
-   font-family: 'Poppins', sans-serif;
-    font-weight: 700;
-    font-size: 24px;
-}
-=======
 .logo-title {
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
@@ -44,7 +27,6 @@ body {
   font-size: 24px;
 }
 
->>>>>>> backup
 .navbar {
   display: flex;
   gap: 576px;
@@ -60,29 +42,12 @@ body {
 .menu-nav {
   list-style: none;
   display: flex;
-<<<<<<< HEAD
-  font-family: 'Poppins', sans-serif;
-=======
   font-family: "Poppins", sans-serif;
->>>>>>> backup
   font-weight: 400;
   font-size: 20px;
   gap: 20px;
 }
 
-<<<<<<< HEAD
-.hero-text-paragraph1{
-    font-size: 32px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-}
-.hero-text-paragraph2{
-    margin-top: 50px;
-    font-size: 20px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-}
-=======
 /*End Header*/
 
 /*Hero Section*/
@@ -99,7 +64,6 @@ body {
   font-weight: 400;
 }
 
->>>>>>> backup
 .Hero-section {
   margin-left: 50px;
   display: flex;
@@ -107,20 +71,11 @@ body {
   justify-content: center;
   gap: 149px;
 }
-<<<<<<< HEAD
-.heroImg{
-    margin-top: 60px;
-}
-.hero-aligment {
-  display: flex;
-  
-=======
 .heroImg {
   margin-top: 60px;
 }
 .hero-aligment {
   display: flex;
->>>>>>> backup
 }
 .section-hero-footer {
   display: flex;
@@ -131,20 +86,12 @@ body {
 
 .watch-video {
   display: flex;
-<<<<<<< HEAD
-  
-=======
 
->>>>>>> backup
   justify-content: center;
   gap: 3px;
   align-items: center;
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> backup
 a {
   text-decoration: none;
 }
@@ -156,33 +103,11 @@ a {
   border-radius: 15px;
   width: 130px;
   height: 38px;
-<<<<<<< HEAD
-  font-family: 'Poppins', sans-serif;
-=======
   font-family: "Poppins", sans-serif;
->>>>>>> backup
   font-weight: 400;
   font-size: 16;
   background-color: #c9c9c9;
 }
-<<<<<<< HEAD
-.heading-text {
-  font-size: 24px;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 500;
-  font-size: 24;
-  text-align: center;
-  color: #6A6A6A;
-}
-.paragraph {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-    color: #575757;
-    font-size: 20px;
-    text-align: center;
-}
-
-=======
 /*End Hero Section*/
 
 .heading-text {
@@ -202,7 +127,6 @@ a {
 }
 
 /*Pricing Section*/
->>>>>>> backup
 .pricing-section {
   margin-top: 63px;
   padding-bottom: 100px;
@@ -213,17 +137,10 @@ a {
   align-items: baseline;
 }
 .pricing-text {
-<<<<<<< HEAD
-font-family: 'Poppins', sans-serif;
-font-weight: 500;  
-font-size: 24px;
-margin-bottom: 10px;
-=======
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 24px;
   margin-bottom: 10px;
->>>>>>> backup
 }
 .pricing-list {
   display: flex;
@@ -231,10 +148,6 @@ margin-bottom: 10px;
   gap: 10px;
   list-style: none;
   padding: 0px;
-<<<<<<< HEAD
-  
-=======
->>>>>>> backup
 }
 
 .pricing-box {
@@ -247,35 +160,20 @@ margin-bottom: 10px;
   margin-top: 0px;
   margin-bottom: 0px;
   color: #01b9f3;
-<<<<<<< HEAD
-  font-family: 'Poppins', sans-serif;
-  font-weight: 500;  
-=======
   font-family: "Poppins", sans-serif;
   font-weight: 500;
->>>>>>> backup
   font-size: 13px;
 }
 .S {
   font-size: 15px;
-<<<<<<< HEAD
-  font-family: 'Poppins', sans-serif;
-  font-weight: 500;  
-=======
   font-family: "Poppins", sans-serif;
   font-weight: 500;
->>>>>>> backup
   margin-top: 0px;
   margin-bottom: 0px;
 }
 .price-value {
-<<<<<<< HEAD
-    font-family: 'Poppins', sans-serif;
-  font-weight: 300;  
-=======
   font-family: "Poppins", sans-serif;
   font-weight: 300;
->>>>>>> backup
   font-size: 40px;
   margin-top: 0px;
   margin-bottom: 0px;
@@ -293,13 +191,6 @@ margin-bottom: 10px;
 .list-alignment {
   display: flex;
   align-items: center;
-<<<<<<< HEAD
-  font-family: 'Poppins', sans-serif;
-  font-weight: 400;  
-  font-size: 10px;
-  gap: 2px;
-}
-=======
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 10px;
@@ -307,16 +198,11 @@ margin-bottom: 10px;
 }
 /*End Pricing Section*/
 
->>>>>>> backup
 /* table {
     border-collapse: collapse;
     border-radius: 30px;
     border-style: hidden; 
-<<<<<<< HEAD
-}
-=======
 } Basic Table
->>>>>>> backup
 
 td,
 th {
@@ -369,130 +255,6 @@ table tr:last-child td:last-child {
   border-bottom-right-radius: 4px;
 }
 
-<<<<<<< HEAD
-.box-alignment {
-    display: flex;
-    justify-content: center;
-    gap: 76px;
-    margin-top: 70px;
-}
-
-.table{
-    margin-top: 20px;
-    display: flex;
-    justify-content: center; 
-}
-.Member-section{
-    background-color: #dad9d9;
-    padding-top: 10px;
-    height: 500px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.white-box{
-    display: flex;
-    border-radius: 10px;
-    flex-direction: column;
-    
-    align-items: center;
-    background-color: #ffffff;
-    width: 1106px;
-    height: 435px;
-}
-
-.number{
-  width: 20px;
-  text-align: center;
-}
-.name{
-    width: 200px;
-    padding-left: 10px;
-}
-.position{
-    width: 100px;
-    text-align: center;
-}
-.age{
-    width: 80px;
-}
-.start-date{
-    width: 120px;
-}
-
-.lable-input-aligment{
-    display: flex;
-    flex-direction: column;
-    
-}
-
-.input-form-name{
-    border-radius: 5px;
-    font-size: 14px;
-    width: 476px;
-    height: 30px;
-    box-shadow: 0 0 1px 2px rgba(0, 0, 0, 0.1);
-    border: #ffffff;
-}
-.input-form-email{
-    border-radius: 5px;
-    font-size: 14px;
-    padding: 0px;
-    width: 538px;
-    border: #ffffff;
-    box-shadow: 0 0 1px 2px rgba(0, 0, 0, 0.1);
-    height: 30px;
-}
-.input-form-subject{
-    font-size: 14px;
-    border: #ffffff;
-    box-shadow: 0 0 1px 2px rgba(0, 0, 0, 0.1);
-    width: 1110px;
-    height: 30px;
-    border-radius: 5px;
-}
-.text-paragraph{
-  font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-    font-size: 20px;
-    color: #6A6A6A;
-}
-.input-form-message{
-    resize: none;
-    font-size: 14px;
-    border: #ffffff;
-    border-radius: 5px;
-    box-shadow: 0 0 1px 2px rgba(0, 0, 0, 0.1);
-    width: 1110px;
-    height: 190px;
-}
-.form-aligment{
-    display: flex;
-    justify-content: center;
-    gap: 93px;
-}
-.contact-section{
-    margin-top: 80px;
-    padding-bottom: 40px;
-}
-.send-message{
-    padding-left: 5px;
-    padding-right: 5px;
-}
-.send-alignment{
-    margin-top: 72px;
-    display: flex;
-    justify-content: center;
-}
-.footer-section {
-    text-align: center;
-    font-family: 'Poppins', sans-serif;font-size: 20px;
-    font-weight: 500;
-    color: white;
-    background-color: #303030;
-    padding: 10px;
-  }
-=======
 /*--End Table--*/
 
 /*Start Member Section*/
@@ -625,4 +387,3 @@ table tr:last-child td:last-child {
   padding: 10px;
 }
 /*End Footer Section*/
->>>>>>> backup
