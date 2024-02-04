@@ -140,6 +140,10 @@ a {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 24px;
+  background: linear-gradient(152deg, rgba(255,0,245,1) 0%, rgba(0,163,255,1) 54%, rgba(255,255,255,0.9051995798319328) 79%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  
   margin-bottom: 10px;
 }
 .pricing-list {
