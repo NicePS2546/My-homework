@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>List Page</title>
+    <link rel="stylesheet" href="/css/listpage.css" />
+    <style>
+        a{
+            text-decoration: none;
+        }
+        .back-bttn{
+            transition: all .5s ease-in-out;
+            color: rgb(255, 255, 255);
+            border: 1px solid;
+           display: inline-flex;
+           justify-content: center;
+           padding: 10px 15px 10px 15px;
+            border-radius: 15px;
+            background-color: rgb(102, 102, 102);
+        }
+        @keyframes spinner {
+            
+        }
+        .back-bttn:hover{
+            background-color: black;
+            transition: all .5s ease-in-out;
+        }
+      .heading-text {
+        text-transform: uppercase;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="heading-text">Tutorial about list</h1>
+    <hr size="5" color="red" class="sep" />
+
+    <h1 class="list-heading-text">Unordered HTML List</h1>
+    <ul>
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Milk</li>
+    </ul>
+    <hr class="sep" />
+    <h2 class="list-heading-text">
+      unordered list : type->Disc/circle/squre/none
+    </h2>
+    <ul style="list-style: none">
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Milk</li>
+    </ul>
+    <hr />
+    <ul>
+      <li>
+        Coffee
+        <ul>
+          <li>Capucino</li>
+          <li>Latte'</li>
+        </ul>
+      </li>
+      <li>Tea
+        <ul>
+            <li>Macha</li>
+            <li>Thai Tea</li>
+          </ul>
+      </li>
+      <li>Milk
+        <ul>
+            <li>Sweet milk</li>
+            <li>Chocolate milk</li>
+          </ul>
+      </li>
+    </ul>
+    <hr/>
+    <h2 class="list-heading-text">ordered list: Type --> 1/A/a/I/i </h2>
+    <ol type="1">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ol>
+    <hr style="margin-bottom: 50px;"/>
+    <a class="back-bttn" href="/pages/6541_01_home.html">Back To Home</a>
+  </body>
+</html>
