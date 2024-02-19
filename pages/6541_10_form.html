@@ -9,11 +9,13 @@
 <body>
     <h1 class="uppercase">tutorial about form</h1>
     <hr>
+    <h2>ฟอร์มบันทึกข้อมูล</h2>
+    
     <form action="" >
         <fieldset class="fieldset">
         <legend>Text field</legend>
             <label for="fname">name:</label>
-            <input type="text" name="fname" id="fname">
+            <input type="text" placeholder="Enter Name" required name="fname" id="fname">
             <br>
             <label for="lname">last name:</label>
             <input type="text" name="lname" id="lname">
@@ -28,14 +30,116 @@
             <input type="date" name="birthday" id="birthday">
             
         </fieldset>
-    <fieldset class="fieldset">
-        <legend>Radio Button</legend>
+    </form>
+
+    <form method="post"  action="https://itmember166.000webhostapp.com/process_form.php">
+        
+        <fieldset style="background-color: rgb(80, 174, 228);">
+            <legend>Text field</legend>
+            <label for="firstname">name:</label>
+            <input type="text" name="input_name" id="firstname">
+            <br>
+            <label for="Email">email:</label>
+            <input type="email" name="input_email" id="Email">
+            <br>
+            <input type="submit">
             
+        </fieldset>
+    </form>
+    
+    <form method="post" action="https://itmember166.000webhostapp.com/process_form.php">
+        <fieldset class="fieldset">
+        <legend>Radio Button</legend>
+        <label>เพศ</label>
+        <input type="radio" id="male" name="input_gender" value="male">
+        <label for="male">ชาย</label>
+        <input type="radio" id="female" name="input_gender" value="female">    
+        <label for="female">หญิง</label>
+        <input type="radio" id="others" name="input_gender" value="others">
+        <label for="others">อื่นๆ</label>
+        <br>
+        <input type="submit" value="ยืนยัน">
     </fieldset>
+    
+</form>
+
+    <form method="post" action="https://itmember166.000webhostapp.com/process_form.php">
     <fieldset class="fieldset">
         <legend>Checkbox</legend>
-            
+        <p>Choose favorite web language</p>
+        <input id="html" name="f-language1" value="html" type="checkbox">
+        <label for="html">HTML</label>
+        <input id="css" name="f-language2" value="css" type="checkbox">
+        <label for="css">CSS</label>
+        <input id="js" name="f-language3" value="javascript" type="checkbox">
+        <label for="js">JS</label>
+        <br>
+        <input type="submit" value="ยืนยัน">
+        
     </fieldset>
     </form>
+    <form method="post" action="https://itmember166.000webhostapp.com/process_form.php">
+        <fieldset class="fieldset">
+            <legend>Drop donw list</legend>
+            <p>Choose your Province</p>
+            <select name="province" id="provice" >
+                <option value="chumphon">
+                    chumphon
+                </option>
+                <option value="Nakhon Pathom">
+                    Nakhon Pathom
+                </option>
+                <option value="Surath thani">
+                    Surath thani
+                </option>
+            </select>
+            <input type="submit" value="send data">
+        </fieldset>
+        </form>
+
+        <form method="post" action="https://itmember166.000webhostapp.com/process_form.php">
+            <fieldset class="fieldset">
+                <legend>Data list</legend>
+                <p>Please write down browser name that you have been used (you can choose from list or write down)</p>
+                <input name="browser" list="browsers">
+                <datalist id="browsers">
+                   <option value="Chrome">Chrome</option>
+                   <option value="Edge">Edge</option>
+                   <option value="FireFox">FireFox</option>
+                   
+               </datalist>
+                
+                <input type="submit" value="send data">
+            </fieldset>
+            </form>
+
+            <form method="post" action="https://itmember166.000webhostapp.com/process_form.php">
+                <fieldset class="fieldset">
+                    <legend>Text area</legend>
+                    <label for="address">Address:</label>
+                    <textarea id="address" cols="30" name="address" rows="10"></textarea>
+                    <input type="reset" value="ล้างข้อมูล">
+                    <input type="submit" value="send data">
+                </fieldset>
+                </form>
+                <form method="post" action="https://itmember166.000webhostapp.com/process_form.php">
+                    <fieldset class="fieldset">
+                        <legend>Color</legend>
+                        <label for="color">Choose Color</label>
+                        <input name="color" type="color">
+                        <input type="reset" value="ล้างข้อมูล">
+                        <input type="submit" value="send data">
+                    </fieldset>
+                    </form>
+
+                    <form method="post" action="">
+                        <fieldset class="fieldset">
+                            <legend>Upload file</legend>
+                            <label for="upload">Choose File</label>\
+                            <input type="file" id="upload">
+                            <input type="reset" value="ล้างข้อมูล">
+                            <input type="submit" value="send data">
+                        </fieldset>
+                        </form>
 </body>
 </html>
