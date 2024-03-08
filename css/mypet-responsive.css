@@ -109,7 +109,56 @@ nav ul li {
 .text-content{
     padding: 15px;
 }
+/* .logo-section{
+    
 
+}
+.logo-media{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    
+    padding: 20px 0px;
+    background-color: rgb(170, 178, 185);
+}
+.icon-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 50%;
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+    
+} */
+
+
+.logo-section {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+    background-color: rgb(170, 178, 185);
+}
+
+.logo-media {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 200px; /* Adjust the gap value as needed */
+}
+
+.icon-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;}
 /* Responsive*/
 @media screen and (max-width:480px) {
     nav{
@@ -121,8 +170,12 @@ nav ul li {
         text-align: center;
     }
     .main-contents{
-        display: grid;
+        
         grid-template-columns: repeat(1,1fr);
+    }
+    .logo-media{
+        gap: 20px;
+        grid-template-columns: repeat(1, 1fr);
     }
 }
 
@@ -131,29 +184,17 @@ nav ul li {
         display: grid;
         grid-template-columns: repeat(2,1fr);
     }
+    .logo-media{
+        gap: 80px;
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 
 /* End Responsive*/
-.logo-media{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
 
-    padding: 20px 0px;
-    background-color: rgb(170, 178, 185);
-}
-.icon-box{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-    /* clip-path: circle(); */
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    
-}
+
+
 
 .footer{
     display: flex;
