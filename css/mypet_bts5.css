@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+    color: rgba(38, 139, 255, 0.8);
+}    
+
+.button {
+    color: rgb(255, 255, 255);
+    border: 2px solid;
+    padding: 8px 8px 8px 8px;
+    border-radius: 15px;
+    background-color: rgb(85, 241, 68);
+}
+
+input {
+    margin-top: 4px;
+}
+
+.bg-nav {
+    background-color: #FAB430;
+    
+    
+}
