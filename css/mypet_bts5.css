@@ -7,11 +7,11 @@ body {
     text-transform: uppercase;
     color: rgba(38, 139, 255, 0.8);
 }    
-a{
+footer div p a{
     text-decoration: none;
     color: black;
 }
-a:hover{
+footer div p a:hover{
     transition: all 0.5ms ease-in-out;
     color: rgb(70, 70, 70);
 }
