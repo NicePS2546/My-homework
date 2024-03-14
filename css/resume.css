@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #575757;
+}
+.A4-frame{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    width: 595px;
+    height: 842px;
+    border: 1px solid black;
+    overflow: hidden;
+}
+.alingment{
+    padding-bottom: 50px;
+}
+.nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.resume-text{
+    font-size: 21px;
+    margin-bottom: 0;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.name{
+    font-size: 21px;
+    margin-bottom: 0;
+    margin-top: 10px;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.header-text{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+   
+}
+
+.pos-text{
+    padding: 0;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 13px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+hr.hr-margin-0{
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.bg-left{
+    background-color: #F8F8F8;
+    display: flex;
+    padding-right: 30px;
+    
+    padding-bottom: 50px;
+}
+hr{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.info-sec{
+    display: flex;
+    width: 85%;
+}
+.left-section{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15%;
+    
+}
+.image-info{
+    display: flex;
+    gap: 10px;
+    opacity: 0.5;
+    flex-direction: column;
+}
+
+.info-text{
+    display: flex;
+    flex-direction: column;
+    margin-top: 12px;
+    gap: 20px;
+    font-size: 12px;
+}
+.contact-text{
+    margin: 0;
+}
+.contact-alingment{
+    display: flex;
+    gap: 20px;
+
+}
+.head-text-resume{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-top: 0px;
+}
+.head-text{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-top: 0px;
+    font-size: 12px;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    
+}
+.right-head-text{
+    margin-bottom: 1px;
+}
+.hr-margin-top{
+    margin-top: 20px;
+}
+.hr-left{
+    border-top:2px dashed ;
+    margin-bottom: 10px;
+    margin-left: 0;
+    margin-right: 0;
+    width: 70%;
+}
+div.computer-skills-sec p{
+    font-size: 12px;
+}
+.font-head-11{
+    font-size: 13px;
+}
+.education-text-align{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.font-size-8{
+    font-size: 11px;
+}
+.right-section{
+    margin-left: 20px;
+    margin-top: 19px;
+    
+}
+
+.margin-text-education{
+    margin: 0;
+}
+
+.language{
+    display: flex;
+    flex-direction: column;
+}
+.progress-bar{
+    
+    height: 5px;
+    background-color: rgb(37, 37, 37);
+    display: block;
+    border-radius: 10px;
+}
+.progress-eng{
+    width: 100px;
+}
+.progress-thai{
+    width: 110px;
+}
+
+.progress-border{
+    border: 1px solid grey;
+    border-radius: 10px;
+    width: 120px;
+}
+
+.lang-skill{
+    display: flex;
+    align-items: center;
+}
+p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.text-skill{
+    margin: 0;
+}
+.gap-eng{
+    gap: 20px;
+}
+.gap-thai{
+    gap: 39.5px;
+}
+.hr-margin-top-buttom{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+section div.right-section p{
+    width: 310px;
+    font-size: 13px;
+    margin-bottom: 0px;
+}
+section div.right-section h4{
+    margin: 0;
+}
+.hr-right{
+    border-top:2px dashed ;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.right-list{
+    display: inline;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 10px;
+
+}
+.list-alignment{
+    margin-top: 0;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.right-section,.left-section{
+    margin-top: 15px;
+}
